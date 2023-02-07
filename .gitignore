@@ -1,2 +1,4 @@
 # Ignore gemgile 
 Gemfile.lock
+
+.DS_Store
