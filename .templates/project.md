@@ -10,7 +10,7 @@ tags:
   - Business Analyst
   - Automation
   - Software Development
-  - Site Relibility Engineering
+  - Site Reliability Engineering
   - System Engineering
   - Client Facing
   - Internal Project
@@ -42,6 +42,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 
-#### Skills and Technologys
+#### Skills and technology's
 - Python
 - SQL 

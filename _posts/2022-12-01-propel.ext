@@ -5,37 +5,31 @@ categories:
   - Projects
 tags:
   - Product Owner
-  - Automation
-  - Site Relibility Engineering
   - Internal Project
 ---
-# Title
+# Propel: An Enterprise Automation Tool 
 ### Project Summary
-Summary 
+The goal of Propel was to create a tool that would automate the process of creating all of the infrastructure required for a developer to create a new application.
 
 ### Project Timeline
-Timeline
+None Defined - Project took 6 Months from initial artifact creation to hand off of the MVP to the enterprise engineering team
 
 ### Project Description
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Our target for this application was to reduce the previous 3-5 day process that involved an engineer standing up all of the required resources for a new applications. These resources included: 
+- GitHub Repo
+- CircleCI Pipelines
+- Terraform YAML Files 
+- Application Information Records 
 
-Jekyll also offers powerful support for code snippets:
+We wanted this tool to be adapted by the organization as a whole, so we focused on creating a framework where templates could be easily designed and managed by each system team. This would allow each department across the family of company's to define and manage their own best practices suited to their workflows and requirements. Some common tasks that I performed over the life of the project included:
+- Creating timelines and negotiated expectations of deliveries in deliverable in usable intervals  
+- Delegated coding and testing of deliverables to the team during sprints
+- Updated developers on deliverables through emails, demonstrations, and user acceptance testing
+- Delivered metrics before, after, and at each phase of the integration as applicable
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-
-#### Skills and Technologys
-- Python
-- SQL 
+#### Skills and technology's
+- Project Management
+- Agile Artifact Creation
+- Time Management 
+- Risk Management and Mitigation 
+- Python (Data Aggregation)
