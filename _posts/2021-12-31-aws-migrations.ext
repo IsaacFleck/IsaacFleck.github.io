@@ -5,36 +5,27 @@ categories:
   - Projects
 tags:
   - Product Owner
-  - Site Relibility Engineering
+  - Site Reliability Engineering
   - Internal Project
 ---
-# Title
+# AWS Account Migrations
 ### Project Summary
-Summary 
+Our target was to move the AWS resources for each Release Train from a centralized AWS Account to their own account. This would allow the SRE Team to better manage AWS resources and track spending more efficiently. 
 
 ### Project Timeline
-Timeline
+2-3 Months 
 
 ### Project Description
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+- Worked with each team and their architect to identify requirements/acceptance criteria and optimal migration timing
+- Created Agile artifacts for the SRE Team to work through and deliver on during weekly sprints
+- Performed UAT Testing to ensure functionality remained after migration 
+- Delivered Technology wide communications regarding migrations 
+- Performed triage duties in the event of an incident  
 
 
-#### Skills and Technologys
-- Python
-- SQL 
+#### Skills and technology's
+- Project Management
+- Agile Artifact Creation
+- Time Management 
+- Risk Management and Mitigation 
+- Python (Data Aggregation)

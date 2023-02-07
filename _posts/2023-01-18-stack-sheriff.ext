@@ -9,33 +9,20 @@ tags:
   - Software Development
   - Internal Project
 ---
-# Title
+# Stack Sheriff - Stack Exchange Article Management tool 
 ### Project Summary
-Summary 
+Create a tool where we could track and validate if a stack exchange article was still relevant. this would be used to create training materials for the business and our Tier 1 support group decreasing the number of escalations our Engineers had to handle during their on call shift. 
 
 ### Project Timeline
-Timeline
+None - Extra task that I took on to improve the life of engineers within the department
 
 ### Project Description
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Some key points of the projects:
+- Developed an application written in Python to Assist in the management Internal StackExchange (SE) articles 
+- Data Gathered through SE’s API on timed intervals 
+- Written in an Object Oriented structure to allow other teams to implement the solution 
+- Managed Articles utilizing Tags to allow for easy searching and management by the owning developing team
 
-Jekyll also offers powerful support for code snippets:
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-
-#### Skills and Technologys
+#### Skills and technology's
 - Python
-- SQL 
+- StackExchange API Integration 

@@ -9,33 +9,22 @@ tags:
   - Client Facing
   - Internal Project
 ---
-# Title
+# OnCall Volume Reduction
 ### Project Summary
-Summary 
+Perform an analysis on the on call volume that impacted our engineers to identify areas we can improve to reduce the work performed over an iteration.  
 
 ### Project Timeline
-Timeline
+2-4 weeks
 
 ### Project Description
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Some tasks that I performed over the life of the project included:
+- Reviewed and provided metrics on initial and final state post initiative 
+- Worked with Application Databases and API’s to aggregate data related to On-Call Tickets 
+- Identified and ranked error messages based on impact and potential resolutions 
+- Presented data to senior developers for approval 
+- Created agile artifacts (Epic, Features, and Stories) for development teams to work
+- Reported on final reduction of 35% ticket reduction equating to a reduction of ~140 man hours monthly 
 
-Jekyll also offers powerful support for code snippets:
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-
-#### Skills and Technologys
+#### Skills and technology's
 - Python
 - SQL 
