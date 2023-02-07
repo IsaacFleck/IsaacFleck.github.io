@@ -13,19 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Isaac Fleck
 email:
+location: Farmington Hills, MI
 description: >- # this means to ignore newlines until "baseurl:"
-  Product Owner with 6+ years of experience in software development, leading teams, 
-  and driving product development. Strong communicator and team player, able to bridge 
-  the gap between technical and non-technical stakeholders. I excel in my ability to 
-  analyze data and shows efficiencies and results through metrics. I am extremely 
-  skilled with Python allowing myself to efficiently work with data as well as create 
-  Automations and perform Testing.
+  Isaac Fleck - A Technical Product Owner with 6+ years of experience in software development, leading teams, 
+  and driving product development.
 # twitter_username: username
 github_username: IsaacFleck
-minimal_mistakes_skin: default
+minimal_mistakes_skin: neon
 search: true
+breadcrumbs: true
 
 # Build settings
 markdown: kramdown
@@ -63,11 +61,13 @@ plugins:
 author:
   name   : "Isaac Fleck"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Product Owner with 6+ years of experience in software development, leading teams, and driving product development. Strong communicator and team player, able to bridge the gap between technical and non-technical stakeholders. I excel in my ability to analyze data and shows efficiencies and results through metrics. I am extremely skilled with Python allowing myself to efficiently work with data as well as create Automations and perform Testing."
+  bio    : "Product Owner with 6+ years of experience in software development, leading teams, and driving product development. 
+  Strong communicator and team player, able to bridge the gap between technical and non-technical stakeholders. He excels in my ability to analyze data and shows efficiencies and results through metrics.
+   Is extremely skilled with Python allowing myself to efficiently work with data as well as create Automations and perform Testing."
   links:
-    - label: "Website"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      url: "https://isaacfleck.github.io/"
+      url: "https://www.linkedin.com/in/isaac-fleck-0a0b311ba/"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
@@ -94,7 +94,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: projects
     values:
       layout: single
       author_profile: true

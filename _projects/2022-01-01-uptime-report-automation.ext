@@ -1,0 +1,58 @@
+---
+title: "Uptime Report Automation"
+last_modified_at: 2022-1-1T16:22:02-05:00
+categories:
+  - Projects
+tags:
+  - Business Analyst
+  - Automation
+  - Software Development
+  - Site Relibility Engineering
+  - Internal Project
+---
+# Uptime Report Automation
+### Project Summary
+The goal of this project was to automate the data aggregation, presentation and sending of a monthly report detailing front end availability for the prior month. 
+
+When the assignment was origionally handed off, the data sources for the three front ends lived in seperate places and often relied on Subjet Matter Experts to compile and report the required metrics. This process was lengthy and typically required meetings increasing the effort needed to deliver the report. 
+
+All said and done, the report creation processes was reduced from 3-4 days, involving meetings with four different senior engineers (~30 minutes to 2 hours) a month; to ~2-3 hours only impacting my day.  
+
+| Role            | Old Cost    | New Cost    |  Reduction         | 
+| --------------- | ----------- | ----------- | ------------------ | 
+| Product Owner   | $1907.84    | $178        | 90.67% (-$1729.84) | 
+| Senior Engineer | $641.52     | $0          | 100% (-641.52)     | 
+| Monthly Total   | $2849.36    | $178        | 93.75% (-$2671.36) | 
+| Yearly Total    | $34192.32   | $2136       | 93.75% (-$32056.32)| 
+
+*please note the above salarys were calculated using company averages per Glassdoor*
+  [$124,000 PerYear](https://www.glassdoor.com/Salary/Rocket-Companies-Product-Owner-Salaries-E7856_D_KO17,30.htm) = $59.62 an Hour   
+  [$166,800 PerYear](https://www.glassdoor.com/Salary/Rocket-Companies-Senior-Software-Engineer-Salaries-E7856_D_KO17,41.htm) = $80.19 an Hour
+  
+
+### Project Timeline
+45 Days From Start to Sending out the first report using the new automation
+
+### Project Description
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
+
+#### Skills and Technologys
+- Python
+- SQL 

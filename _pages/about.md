@@ -3,6 +3,11 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Product Owner with 5+ years of experience in software development, leading teams, and driving product development. Strong communicator and team player, able to bridge the gap between technical and non-technical stakeholders. He excels in his ability to analyze data and shows efficiencies and results through metrics. He is extremely skilled with Python allowing him to efficiently work with data as well as create Automations and perform Testing. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+**Highlights:**
+- Worked in an Agile environment for over six years, writing artifacts, epics, stories, and clear/complete acceptance criteria
+- Strong Technical Knowledge with the ability to effectively communicate with non-technical groups
+- Effective Communication 
+- Expert Knowledge of Agile Methodologies
+- Efficient Data Analysis and Analytics skills 
