@@ -1,0 +1,719 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Uptime Report Automation - Isaac Fleck</title>
+<meta name="description" content="Uptime Report Automation Project Summary The goal of this project was to automate the data aggregation, presentation and sending of a monthly report detailing front end availability for the prior month.">
+
+
+  <meta name="author" content="Isaac Fleck">
+  
+  <meta property="article:author" content="Isaac Fleck">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Isaac Fleck">
+<meta property="og:title" content="Uptime Report Automation">
+<meta property="og:url" content="http://localhost:4000/projects/uptime-report-automation/">
+
+
+  <meta property="og:description" content="Uptime Report Automation Project Summary The goal of this project was to automate the data aggregation, presentation and sending of a monthly report detailing front end availability for the prior month.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-01-01T00:00:00-05:00">
+
+
+
+  <meta property="article:modified_time" content="2022-01-01T16:22:02-05:00">
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/projects/uptime-report-automation/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Isaac Fleck Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Isaac Fleck
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/categories/">Categories</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tags/">Tags</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#projects" itemprop="item"><span itemprop="name">Projects</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Uptime Report Automation</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo.jpg" alt="Isaac Fleck" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Isaac Fleck</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Product Owner with 6+ years of experience in software development, leading teams, and driving product development. Strong communicator and team player, able to bridge the gap between technical and non-technical stakeholders. He excels in my ability to analyze data and shows efficiencies and results through metrics. Is extremely skilled with Python allowing myself to efficiently work with data as well as create automation’s and perform Testing.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/isaac-fleck-0a0b311ba/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/IsaacFleck" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Uptime Report Automation">
+    <meta itemprop="description" content="Uptime Report AutomationProject SummaryThe goal of this project was to automate the data aggregation, presentation and sending of a monthly report detailing front end availability for the prior month.">
+    <meta itemprop="datePublished" content="2022-01-01T00:00:00-05:00">
+    <meta itemprop="dateModified" content="2022-01-01T16:22:02-05:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/projects/uptime-report-automation/" class="u-url" itemprop="url">Uptime Report Automation
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="uptime-report-automation">Uptime Report Automation</h1>
+<h3 id="project-summary">Project Summary</h3>
+<p>The goal of this project was to automate the data aggregation, presentation and sending of a monthly report detailing front end availability for the prior month.</p>
+
+<p>When the assignment was originally handed off, the data sources for the three front ends lived in separate places and often relied on Subject Matter Experts to compile and report the required metrics. This process was lengthy and typically required meetings increasing the effort needed to deliver the report.</p>
+
+<p>All said and done, the report creation processes was reduced from 3-4 days, involving meetings with four different senior engineers (~30 minutes to 2 hours) a month; to ~2-3 hours only impacting my day.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Old Cost</th>
+      <th>New Cost</th>
+      <th>Reduction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Product Owner</td>
+      <td>$1,907.84</td>
+      <td>$178</td>
+      <td>90.67% (-$1,729.84)</td>
+    </tr>
+    <tr>
+      <td>Senior Engineer</td>
+      <td>$641.52</td>
+      <td>$0</td>
+      <td>100% (-641.52)</td>
+    </tr>
+    <tr>
+      <td><strong>Monthly Total</strong></td>
+      <td>$2,849.36</td>
+      <td>$178</td>
+      <td>93.75% (-$2,671.36)</td>
+    </tr>
+    <tr>
+      <td><strong>Yearly Total</strong></td>
+      <td>$34,192.32</td>
+      <td>$2,136</td>
+      <td>93.75% (-$32,056.32)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>please note the above salary’s were calculated using company averages per Glassdoor</em>
+  <a href="https://www.glassdoor.com/Salary/Rocket-Companies-Product-Owner-Salaries-E7856_D_KO17,30.htm">$124,000 PerYear</a> = $59.62 an Hour <br />
+  <a href="https://www.glassdoor.com/Salary/Rocket-Companies-Senior-Software-Engineer-Salaries-E7856_D_KO17,41.htm">$166,800 PerYear</a> = $80.19 an Hour</p>
+
+<h3 id="project-timeline">Project Timeline</h3>
+<p>45 Days from start to sending out the first report using the new automated process</p>
+
+<h3 id="project-description">Project Description</h3>
+<p>Utilizing Python to gather data from PagerDuty, Grafana and Dynatrace’s API’s. I was able to automate the collection and presentation of the Technical Incidents that effected specific Business Services in Pagerduty. To track individual user impact, I connected to different Grafana dashboards and Dynatrace data sources to track the 500 responses.</p>
+
+<p>Once the data was collected, I performed a simple calculation reducing the total uptime for the three target front ends based on the time an Incident spent in a Severity 1 or 2 state, while highlighting the number of 500 responses outside of recorded incident time frames.</p>
+
+<p>From here, the python script automatically created a .docx file containing a bar chart visualizing the downtime, and a section for each front end that detailed the incidents that impacted said front end.</p>
+
+<p>From here I verified the data, constructed an email communication that highlighted the important details. then sent the file as a PDF to leaders across the Organization</p>
+
+<h4 id="skills-and-technologys">Skills and technology’s</h4>
+<ul>
+  <li>Python</li>
+  <li>Data Visualization</li>
+  <li>Enterprise Wide Communications</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#automation" class="page__taxonomy-item p-category" rel="tag">Automation</a><span class="sep">, </span>
+    
+      <a href="/tags/#business-analyst" class="page__taxonomy-item p-category" rel="tag">Business Analyst</a><span class="sep">, </span>
+    
+      <a href="/tags/#internal-project" class="page__taxonomy-item p-category" rel="tag">Internal Project</a><span class="sep">, </span>
+    
+      <a href="/tags/#site-reliability-engineering" class="page__taxonomy-item p-category" rel="tag">Site Reliability Engineering</a><span class="sep">, </span>
+    
+      <a href="/tags/#software-development" class="page__taxonomy-item p-category" rel="tag">Software Development</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#projects" class="page__taxonomy-item p-category" rel="tag">Projects</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-01-01">January 1, 2022</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Uptime+Report+Automation%20http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Fuptime-report-automation%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Fuptime-report-automation%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fprojects%2Fuptime-report-automation%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/projects/aws-migrations/" class="pagination--pager" title="AWS Migrations
+">Previous</a>
+    
+    
+      <a href="/projects/new-escrow-experience/" class="pagination--pager" title="New Escrow Experience
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You May Also Enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/projects/stack-sheriff/" rel="permalink">Stack Sheriff
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Stack Sheriff - Stack Exchange Article Management tool
+Project Summary
+Create a tool where we could track and validate if a stack exchange article was still ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/projects/oncall-reduction/" rel="permalink">OnCall Volume Reduction
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">OnCall Volume Reduction
+Project Summary
+Perform an analysis on the on call volume that impacted our engineers to identify areas we can improve to reduce the ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/projects/propel/" rel="permalink">Propel
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Propel: An Enterprise Automation Tool
+Project Summary
+The goal of Propel was to create a tool that would automate the process of creating all of the infrastr...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/projects/new-escrow-experience/" rel="permalink">New Escrow Experience
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">New Escrow Experience in RMS
+Project Summary
+Revamp the Rocket Mortgage Escrow Experience for clients who have an Escrow account. The goal was to provide a b...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/IsaacFleck" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Isaac Fleck. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

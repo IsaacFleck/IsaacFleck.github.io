@@ -62,8 +62,8 @@ author:
   name   : "Isaac Fleck"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Product Owner with 6+ years of experience in software development, leading teams, and driving product development. 
-  Strong communicator and team player, able to bridge the gap between technical and non-technical stakeholders. He excels in my ability to analyze data and shows efficiencies and results through metrics.
-   Is extremely skilled with Python allowing myself to efficiently work with data as well as create automation's and perform Testing."
+  Strong communicator and team player, able to bridge the gap between technical and non-technical stakeholders. He excels in his ability to analyze data and shows efficiencies and results through metrics.
+   Is skilled with Python allowing myself to efficiently work with data as well as create automation's and perform Testing."
   links:
     - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
@@ -94,7 +94,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: projects
+      type: posts
     values:
       layout: single
       author_profile: true
