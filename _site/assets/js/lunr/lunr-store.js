@@ -1,43 +1,37 @@
 var store = [{
-        "title": "Post: Modified Date",
-        "excerpt":"This post has been updated and should show a modified date if used in a layout. All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a...","categories": ["Blog"],
-        "tags": ["Post Formats","readability","standard"],
-        "url": "/blog/post-modified/",
+        "title": "AWS Migrations",
+        "excerpt":"AWS Account Migrations Project Summary Our target was to move the AWS resources for each Release Train from a centralized AWS Account to their own account. This would allow the SRE Team to better manage AWS resources and track spending more efficiently. Project Timeline 2-3 Months Project Description Worked with...","categories": ["Projects"],
+        "tags": ["Product Owner","Site Reliability Engineering","Internal Project"],
+        "url": "/projects/aws-migrations/",
         "teaser": null
       },{
-        "title": "Post: Standard",
-        "excerpt":"All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she...","categories": ["Blog"],
-        "tags": ["Post Formats","readability","standard"],
-        "url": "/blog/post-standard/",
+        "title": "Uptime Report Automation",
+        "excerpt":"Uptime Report Automation Project Summary The goal of this project was to automate the data aggregation, presentation and sending of a monthly report detailing front end availability for the prior month. When the assignment was originally handed off, the data sources for the three front ends lived in separate places...","categories": ["Projects"],
+        "tags": ["Business Analyst","Automation","Software Development","Site Reliability Engineering","Internal Project"],
+        "url": "/projects/uptime-report-automation/",
         "teaser": null
       },{
-        "title": "Post: Chat",
-        "excerpt":"Abbott: Strange as it may seem, they give ball players nowadays very peculiar names. Costello: Funny names? Abbott: Nicknames, nicknames. Now, on the St. Louis team we have Who’s on first, What’s on second, I Don’t Know is on third– Costello: That’s what I want to find out. I want...","categories": ["Blog"],
-        "tags": ["chat","Post Formats"],
-        "url": "/blog/post-chat/",
+        "title": "New Escrow Experience",
+        "excerpt":"New Escrow Experience in RMS Project Summary Revamp the Rocket Mortgage Escrow Experience for clients who have an Escrow account. The goal was to provide a better experience and more visibility into escrow accounts with hopes of reducing calls to our client relations team. Project Timeline Q2 through Q4 where...","categories": ["Projects"],
+        "tags": ["Product Owner","Client Facing"],
+        "url": "/projects/new-escrow-experience/",
         "teaser": null
       },{
-        "title": "Post: Notice",
-        "excerpt":"A notice displays information that explains nearby content. Often used to call attention to a particular detail. When using Kramdown {: .notice} can be added after a sentence to assign the .notice to the &lt;p&gt;&lt;/p&gt; element. Changes in Service: We just updated our privacy policy here to better service our...","categories": ["Blog"],
-        "tags": ["Post Formats","notice"],
-        "url": "/blog/post-notice/",
+        "title": "Propel",
+        "excerpt":"Propel: An Enterprise Automation Tool Project Summary The goal of Propel was to create a tool that would automate the process of creating all of the infrastructure required for a developer to create a new application. Project Timeline None Defined - Project took 6 Months from initial artifact creation to...","categories": ["Projects"],
+        "tags": ["Product Owner","Internal Project"],
+        "url": "/projects/propel/",
         "teaser": null
       },{
-        "title": "Post: Quote",
-        "excerpt":"   Only one thing is impossible for God: To find any sense in any copyright law on the planet.       Mark Twain   ","categories": ["Blog"],
-        "tags": ["Post Formats","quote"],
-        "url": "/blog/post-quote/",
+        "title": "OnCall Volume Reduction",
+        "excerpt":"OnCall Volume Reduction Project Summary Perform an analysis on the on call volume that impacted our engineers to identify areas we can improve to reduce the work performed over an iteration. Project Timeline 2-4 weeks Project Description Some tasks that I performed over the life of the project included: Reviewed...","categories": ["Projects"],
+        "tags": ["Business Analyst","Software Development","Client Facing","Internal Project"],
+        "url": "/projects/oncall-reduction/",
         "teaser": null
       },{
-        "title": "Post: Link",
-        "excerpt":"This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.      And this is how a quote looks.    Some link can also be shown.  ","categories": ["Blog"],
-        "tags": ["link","Post Formats"],
-        "url": "/blog/post-link/",
-        "teaser": null
-      },{
-        "title": "Welcome to Jekyll!",
-        "excerpt":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...","categories": ["blog"],
-        "tags": ["Jekyll","update"],
-        "url": "/blog/welcome-to-jekyll/",
+        "title": "Stack Sheriff",
+        "excerpt":"Stack Sheriff - Stack Exchange Article Management tool Project Summary Create a tool where we could track and validate if a stack exchange article was still relevant. this would be used to create training materials for the business and our Tier 1 support group decreasing the number of escalations our...","categories": ["Projects"],
+        "tags": ["Business Analyst","Automation","Software Development","Internal Project"],
+        "url": "/projects/stack-sheriff/",
         "teaser": null
       }]
