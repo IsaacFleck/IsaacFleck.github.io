@@ -9,23 +9,25 @@ tags:
 ---
 # Virtual Passport Modernization  
 ### Project Summary
-An old application used by the business to track Team Member progress for several initiatives was hosted on a soon to be decommissioned server. The goal of this project was to take this application and move it to EKS in AWS as a training program for several interns who just joined the company
+The goal of this project was to modernize an old application used by the business to track team member progress for several initiatives. The application was hosted on a soon-to-be-decommissioned server, and the objective was to move it to EKS in AWS. The project was also used as a training program for several interns who had just joined the company.
 
 ### Project Timeline
-None Defined - Project was used as a training opportunity for several interns 
+There was no defined timeline for the project, as it was used as a training opportunity for the interns.
 
 ### Project Description
-Throughout this project I was able to train these interns on the development process and the SDLC within the FoC. Furthermore I was able to work with them to design a new application architecture and walk them through the agile ceremonies implemented in our department. 
+Throughout the project, I was able to train the interns on the development process and the SDLC within the FoC. Additionally, I worked with them to design a new application architecture and walked them through the agile ceremonies implemented in our department.
 
-Some common tasks that I performed over the life of the project included:
-- Reviewed current business requirements, setup acceptance criteria and final vision 
-- Created modern application architecture utilizing AWS EKS to host the Applications Front End, API and connect to the existing on-prem database 
-- Created Agile Artifacts detailing work for the development team to deliver on
-- Managed Data Collection and improved the automated import process
-- Handled communication and expectations with Business Stakeholders
+Some of the common tasks that I performed over the course of the project included:
+
+- Reviewing current business requirements, setting up acceptance criteria, and defining the final vision.
+- Creating a modern application architecture utilizing AWS EKS to host the application's front end, API, and connect to the existing on-prem database.
+- Creating agile artifacts detailing work for the development team to deliver.
+- Managing data collection and improving the automated import process.
+- Handling communication and expectations with business stakeholders.
 
 
 #### Skills and technology's
+This project required the following skills and technologies:
 - Project Management
 - Agile Artifact Creation
 - Time Management 

@@ -11,12 +11,14 @@ tags:
 ---
 # OnCall Volume Reduction
 ### Project Summary
-Perform an analysis on the on call volume that impacted our engineers to identify areas we can improve to reduce the work performed over an iteration.  
+The objective of this project was to analyze the on-call volume that impacted our engineers and identify areas for improvement to reduce work performed over an iteration.
 
 ### Project Timeline
-2-4 weeks
+The project timeline was 2-4 weeks.
 
 ### Project Description
+As the Business Analyst owning this project, I performed the following tasks throughout the project:
+
 Some tasks that I performed over the life of the project included:
 - Reviewed and provided metrics on initial and final state post initiative 
 - Worked with Application Databases and API’s to aggregate data related to On-Call Tickets 
@@ -26,5 +28,7 @@ Some tasks that I performed over the life of the project included:
 - Reported on final reduction of 35% ticket reduction equating to a reduction of ~140 man hours monthly 
 
 #### Skills and technology's
+This project required the use of the following skills and technologies:
+
 - Python
 - SQL 
