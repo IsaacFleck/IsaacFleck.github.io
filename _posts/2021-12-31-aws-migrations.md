@@ -37,6 +37,4 @@ This project required a variety of skills and technologies, including:
 - **Python (Data Aggregation)**: I used Python for data aggregation to streamline the migration process.
 
 ## Conclusion
-
-Overall, successful migration resulted in more efficient resource management and spending tracking for the SRE team. If you're considering a similar project, be sure to prioritize clear communication, risk management, and efficient use of time and resources.
-
+Overall, successful migration resulted in more efficient resource management and spending tracking for the SRE team.

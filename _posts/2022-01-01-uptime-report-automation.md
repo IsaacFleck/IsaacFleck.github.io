@@ -44,4 +44,4 @@ I verified the data, constructed an email communication that highlighted the imp
 #### Skills and Technologies
 - Python
 - Data Visualization
-- Enterprise-Wide Communications 
+- Enterprise-Wide Communications
